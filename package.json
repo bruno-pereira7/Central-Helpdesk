@@ -1,0 +1,33 @@
+{
+  "name": "helpdesk-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3081",
+    "dev:server": "cd server && npm run dev",
+    "dev:all": "npm run dev:server & npm run dev",
+    "dev:rede": "next dev -p 3081 --hostname 0.0.0.0",
+    "dev:all:rede": "npm run dev:server & npm run dev:rede",
+    "build": "next build",
+    "start": "next start -p 3081",
+    "start:rede": "next start -p 3081 --hostname 0.0.0.0",
+    "start:server": "cd server && npm start",
+    "start:all:rede": "npm run dev:server & npm run start:rede",
+    "lint": "next lint",
+    "install:all": "npm install && cd server && npm install"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "next": "^16.2.1",
+    "postcss": "^8.5.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.8.1",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2"
+  }
+}
