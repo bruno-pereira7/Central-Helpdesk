@@ -7,7 +7,7 @@ Sistema de gestão de chamados de suporte técnico com frontend Next.js e backen
 - **Frontend**: Next.js 16, React 19, TypeScript
 - **Backend**: Node.js, Express, TypeScript
 - **Estilização**: CSS Custom Properties (Dark Theme)
-- **Portas**: Frontend (3000), Backend (3080)
+- **Portas**: Frontend (3081), Backend (3080)
 
 ## Instalação
 
