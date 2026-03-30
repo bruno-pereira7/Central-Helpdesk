@@ -25,7 +25,7 @@ cd server && npm install
 # Rodar backend (porta 3080)
 npm run dev:server
 
-# Rodar frontend (porta 3000)
+# Rodar frontend (porta 3081)
 npm run dev
 ```
 
